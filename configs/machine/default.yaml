@@ -1,0 +1,4 @@
+# Root directory containing pretrained checkpoints for custom models
+# (Override per-machine when training. Not required for omni_evaluation_code.py;
+# external model wrappers fetch their own weights from HuggingFace Hub.)
+root_pretrained_checkpoints_dir: null
