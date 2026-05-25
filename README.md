@@ -1,5 +1,16 @@
 # Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers
 
+<a href="https://arxiv.org/abs/2605.23892"><img src="https://img.shields.io/badge/arXiv-2605.23892-b31b1b" alt="LiteVGGT"></a >
+<a href="https://zsh2000.github.io/good-token-hunting.github.io/"><img src="https://img.shields.io/badge/Project_Page-green" alt="Project Page"></a>
+
+
+**[Shuhong Zheng](https://zsh2000.github.io/)<sup>1</sup>, [Michael Oechsle](https://moechsle.github.io/)<sup>2</sup>, [Erik Sandström](https://eriksandstroem.github.io/)<sup>2</sup>, [Marie-Julie Rakotosaona](https://scholar.google.com/citations?user=eQ0om98AAAAJ&hl=en)<sup>2</sup>, [Federico Tombari](https://federicotombari.github.io/)<sup>2,3&dagger;</sup>, [Igor Gilitschenski](https://www.gilitschenski.org/igor/)<sup>1&dagger;</sup>**
+
+
+<sup>1</sup>University of Toronto & Vector Institute, <sup>2</sup>Google, <sup>3</sup>TUM
+
+&dagger;Joint Advising
+
 ## Overview
 
 Our work, *GoToHunt*, speeds up visual geometry transformers by selecting a limited budget of tokens that each query can interact with, that scales near-linearly with the number of input frames.
