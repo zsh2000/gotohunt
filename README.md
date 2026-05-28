@@ -197,6 +197,17 @@ These are the `--data_root` arguments for different datasets:
 
 As for 3D reconstruction and depth estimation, the evaluation code used in different prior works has some difference, we follow [ZipMap](https://github.com/Haian-Jin/ZipMap) for video depth estimation, and [StreamVGGT](https://github.com/wzzheng/StreamVGGT) for calculating the evaluation metrics for 3D point cloud estimation. The reason is that in [StreamVGGT](https://github.com/wzzheng/StreamVGGT) implementation, the points used for calculating the metrics are centered cropped from the full images, which can greatly reduce the metrics calculation time for 3D point cloud estimation (though still being a bit long) for a collection of hundreds of images. 
 
+## Citation
+If you find our work useful, please consider citing:
+```BibTeX
+@article{zheng2026goodtokenhunting,
+      title={Good Token Hunting: A Hitchhiker's Guide to Token Selection for Visual Geometry Transformers}, 
+      author={Shuhong Zheng and Michael Oechsle and Erik Sandström and Marie-Julie Rakotosaona and Federico Tombari and Igor Gilitschenski},
+      journal={arXiv preprint arXiv:2605.23892},
+      year={2026}
+}
+```
+
 ## Acknowledgements
 
 - Thanks to these great repositories: [MapAnything](https://github.com/facebookresearch/map-anything), [CUT3R](https://github.com/CUT3R/CUT3R), [FastVGGT](https://github.com/mystorm16/FastVGGT), [StreamVGGT](https://github.com/wzzheng/StreamVGGT), and many other inspiring works in the community.
